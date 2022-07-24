@@ -1,12 +1,20 @@
-import React from 'react'
+import React from 'react';
+import alias from '../assets/bg.jpg';
 
 const AboutUs = () => {
   return (
     <div className='aboutUs-Container'>
-      <span> I am </span> <br />
-      <h1>Ashish Raj</h1><br />
-      <h3>Problem Solver</h3><br />
-      <h3>Web Developer</h3><br />
+      <div className='aboutUs-info'>
+        <h1>Hi</h1>
+        <h1> I am Ashish Raj,</h1>
+        <h1> Web Developer</h1>
+        <h3>Frontend Developer</h3>
+        <h3>(React,AngularJs,Html,Css)</h3>
+     </div>
+     <div className="img-container">
+        <img src={alias} alt="" />
+     </div>
+
 
     </div>
   )
